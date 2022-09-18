@@ -1,13 +1,111 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.container {
+  display: flex;
+  justify-content: flex-start;
+}
+/* body {
+  background-color: #373236 !important;
+} */
+
+.menuHeader {
+  margin-top: 50px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.collectionName {
+  display: flex;
+  align-items: baseline;
+  margin-top: 20px;
+}
+
+.collectionText {
+  font-size: 20px;
+  align-self: initial;
+  padding-left: 10px;
+}
+
+.header {
+  margin-top: 50px !important;
+}
+
+.title {
+  display: flex;
+  align-items: baseline;
+}
+
+.addTodo {
+  padding-left: 18.5%;
+  width: 100%;
+}
+
+.box {
+  width: 60%;
+}
+
+.inputBox {
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+
+.todoList {
+  display: flex;
+  flex-direction: column;
+  padding-left: 18.5%;
+  margin-top: 3rem;
+}
+
+.list-card {
+  width: 60%;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border: 1px solid #ffccf0;
+  border-radius: 12px;
+  padding: 5px;
+  margin-bottom: 8px;
+}
+.list-card .text {
+  padding-left: 10px;
+}
+
+.list-card .time {
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+}
+.list-card .time {
+  color: #b3007d;
+  width: 150px;
+}
+
+.list-card .time-text {
+  padding-left: 10px;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-self: center;
+  color: #ff00b3;
+}
+
+.completed {
+  margin-top: 1rem;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: 18.5%;
+}
+
+.heading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.form-group {
+  margin: 5px 0 10px 0;
 }
